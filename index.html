@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Professional portfolio site. Web developer, full-stuck developer. Mariya Lucas "
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
@@ -17,7 +21,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Mariya Lucas</title>
+    <title>Mariya Lucas Personal Site</title>
   </head>
 
   <body>
@@ -38,13 +42,10 @@
               <a href="index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="about.html" class="nav-link">About Me</a>
+              <a href="#about-me" class="nav-link">About Me</a>
             </li>
             <li class="nav-item">
-              <a href="services.html" class="nav-link">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact</a>
+              <a href="projects.html" class="nav-link">Projects</a>
             </li>
           </ul>
         </div>
@@ -66,9 +67,11 @@
                 <div class="carousel-caption text-left">
                   <h1>Front End Projects</h1>
                   <p class="d-none d-md-block">
-                    Various projects with using React, Bootstrap
+                    Various projects using HTML, CSS, Bootstrap and React
                   </p>
-                  <a href="#" class="btn btn-outline-dark">Learn More</a>
+                  <a href="projects.html#front" class="btn btn-outline-dark"
+                    >Find More</a
+                  >
                 </div>
               </div>
             </div>
@@ -80,9 +83,11 @@
                 <div class="carousel-caption text-left">
                   <h1>Full Stack Projects</h1>
                   <p class="d-none d-md-block">
-                    Various projects with using React, Bootstrap, MongoDB, AWS
+                    Various projects using React, Bootstrap, MongoDB and AWS
                   </p>
-                  <a href="#" class="btn btn-outline-dark">Learn More</a>
+                  <a href="projects.html#full" class="btn btn-outline-dark"
+                    >Find More</a
+                  >
                 </div>
               </div>
             </div>
@@ -94,9 +99,12 @@
                 <div class="carousel-caption text-left">
                   <h1>Other Technologies</h1>
                   <p class="d-none d-md-block">
-                    Testing experience. Gerkins ...
+                    Testing experience. Gerkins, Marven. ISTQB experience. Agile
+                    methodologies.
                   </p>
-                  <a href="#" class="btn btn-outline-dark">Learn More</a>
+                  <a href="projects.html#other" class="btn btn-outline-dark"
+                    >Find More</a
+                  >
                 </div>
               </div>
             </div>
@@ -112,6 +120,72 @@
       </div>
     </section>
 
+    <!-- About Me Section -->
+    <section id="about-me" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mb-4">
+            <h3>About Me</h3>
+            <p class="text-light">
+              A passionate and driven software engineer, I have spent the last
+              two years satisfying my curiosity for the IT space by enhancing my
+              knowledge across a range of platforms while building my experience
+              through the testing of mobile and web applications. I have used my
+              initiative to seek out appropriate resources to self-learn, while
+              also participating in a series of courses that have boosted my
+              ability to communicate with fellow professionals and enhanced my
+              teamwork skills. With a strong background that includes two years’
+              experience in manual testing, four years in customer service and
+              five years in machine building engineering, coupled with fluency
+              in both the English and Russian languages I believe I have a lot
+              to offer. Now it is my goal to find an employer with whom I can
+              build a career, utilise my technical skills, further my learning
+              and play a key role in a successful team.
+            </p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fab fa-linkedin fa-3x mb-2 mb-2"></i>
+            <h3>LinkedIn</h3>
+            <a
+              href="https://www.linkedin.com/in/mariya-podosinova/"
+              class="btn btn-dark mb-4"
+              >For more and CV</a
+            >
+
+            <h3>My Email: mariyalcs@gmail.com</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Me Section -->
+    <section id="home-heading" class="p-5">
+      <div class="dark-overlay">
+        <div class="row">
+          <div class="col">
+            <div class="container pt-5">
+              <h1>See my profile on Github</h1>
+              <a href="https://github.com/mariyalcs" class="btn btn-dark btn-lg"
+                >Find More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>
+              Copyright &copy; <span id="year"></span> Mariya Lucas Personal
+              Site
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="http://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
